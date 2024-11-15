@@ -1,0 +1,74 @@
+/* Task Form Container */
+.task-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Form Title */
+  .task-form-title {
+    font-size: 24px;
+    color: #16423C;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Form Inputs */
+  .task-form-input,
+  .task-form-date,
+  .task-form-textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .task-form-textarea {
+    height: 100px;
+    resize: vertical;
+  }
+  
+  /* Breakdown Task Section */
+  .task-form-breakdown-title {
+    font-size: 18px;
+    color: #16423C;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .task-form-breakdown-item {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .task-form-breakdown-input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Buttons */
+  .task-form-add-button,
+  .task-form-submit-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #16423C;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .task-form-add-button:hover,
+  .task-form-submit-button:hover {
+    background-color: #0e3026;
+  }
+  

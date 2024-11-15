@@ -1,0 +1,54 @@
+/* Footer Styling */
+.deorbit-footer {
+    background-color: #16423C;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    box-sizing: border-box;
+}
+
+.deorbit-footer-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.deorbit-footer-section h4 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.deorbit-footer-section p {
+    margin: 5px 0;
+    color: white;
+    font-size: 0.9rem;
+}
+
+.deorbit-footer a {
+    color: white;
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+.deorbit-footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .deorbit-footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: auto;
+        padding: 15px;
+    }
+
+    .deorbit-footer-section {
+        margin-bottom: 15px;
+    }
+}

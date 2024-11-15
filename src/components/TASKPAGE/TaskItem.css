@@ -1,0 +1,88 @@
+/* Task Item */
+.taskitem-title {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+    cursor: pointer;
+  }
+  
+  /* Modal Overlay */
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+  }
+  
+  /* Modal Box */
+  .modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    width: 400px;
+    max-width: 90%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+  }
+  
+  .modal h4 {
+    font-size: 20px;
+    color: #16423C;
+    margin-bottom: 15px;
+  }
+  
+  .modal p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  /* Breakdown Tasks */
+  .modal ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .modal ul li {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+  }
+  
+  .modal ul li input[type="checkbox"] {
+    margin-left: 10px;
+  }
+  
+  /* Buttons */
+  .modal button {
+    background-color: #16423C;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .modal button:hover {
+    background-color: #0c4238;
+  }
+  
+  /* Close Button */
+  .modal button:last-child {
+    background-color: #aaa;
+    color: #fff;
+  }
+  
+  .modal button:last-child:hover {
+    background-color: #888;
+  }
+  
